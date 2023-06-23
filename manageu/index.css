@@ -1,0 +1,105 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+
+body{
+    background-color: #f6aa1c;
+     font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.input-date1{
+    width: 160px;
+    height: 58px;
+    border: 0.5px solid rgba(128, 128, 128, 0.623);
+    background-color: #ffe7c3;
+}
+
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap:10px;
+    margin-bottom: 20px;
+}
+.my-clo{
+    display: flex;
+    flex-direction: column;
+
+}
+select{
+    width: 200px;
+    height: 47px;
+    border:0.5px solid #8080808c;
+}
+.levels-to-display{
+    position: relative
+    ;
+    left: 111px;
+    top: 48px;
+}
+.clock {
+    position: absolute;
+    top: 34px;
+    left: 18px;
+  
+    color: #faedcd;
+    font-size: 2.5vw;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+   
+
+
+}
+@media only screen and (max-width: 620px) {
+  .clock {
+   display: none;
+  }
+}
+.number{
+    position: relative
+    ;
+    right:19px;
+    top:32px;
+}
+h5{
+    margin-bottom:-35px ;
+}
+
+.background{
+    background-color: #941b0c;
+}
+
+.btnPlus{
+    background-color: #bc3908;
+    font-size: 1.5rem;
+}
+
+.btnPlus:hover{
+    background-color: #dc6235; 
+}
+
+#description{
+    background-color: #ffe7c3;
+    
+
+}
+.description{
+   font-size: 18px;
+}
+    
+
+
+
+.labels{
+       background-color: #ffe7c3;
+       font-size: 18px;
+}
+
+.welcome{
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+}
